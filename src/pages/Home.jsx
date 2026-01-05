@@ -86,7 +86,7 @@
 
 import React from "react";
 
-import PopularArtist from "../Home/PopularArtist";
+// import PopularArtist from "../Home/PopularArtist";
 import TrendingNow from "../home/TrendingNow";
 import RecentlyPlayed from "../home/RecentlyPlayed";
 import NewReleases from "../home/NewReleases";
@@ -111,7 +111,7 @@ const Home = () => {
 
       {/* SECTIONS */}
       <TrendingNow />
-      <PopularArtist />
+      {/* <PopularArtist /> */}
       <NewReleases />
       <Recommended/>
       <RecentlyPlayed />
