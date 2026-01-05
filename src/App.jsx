@@ -14,7 +14,7 @@ import Artist from "./pages/Artist";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { MusicProvider } from "./context/MusicContext";
-import ArtistDetail from "./Home/ArtistDetail";
+
 import MoodBasedDetail from "./home/MoodBasedDetail";
 import GenreSectionDetail from "./home/GenreSectionDetail";
 import PlaySongCard from "./components/music/PlaySongCard";
@@ -87,7 +87,7 @@ const demoPlaylist = [
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/sidebar" element={<Sidebar/>} />
-      <Route path="/artistdetail/:id" element={<ArtistDetail />} />
+      {/* <Route path="/artistdetail/:id" element={<ArtistDetail />} /> */}
       <Route path="/mood/:id" element={<MoodBasedDetail />} />
       <Route path="/genre/:genreId" element={<GenreSectionDetail />} />
       <Route path="/playsong/:id" element={<PlaySongCard/>} />
