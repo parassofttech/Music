@@ -102,7 +102,7 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold mb-4">
-          Feel the song and listin to the <span className="text-neon">Music</span>
+          Feel the song and listin to the music and more <span className="text-neon">Music</span>
         </h1>
         <p className="text-gray-400 mb-4">
           Stream your favorite songs anytime.
